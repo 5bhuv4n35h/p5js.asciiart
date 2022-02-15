@@ -7,7 +7,16 @@ background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(
   font-size: 12pt;
   line-height: 10pt;
 }
-
+#canvas {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    display: block;
+    align-self: center;
+}
 canvas {
   display: block;
   align-self: center;
